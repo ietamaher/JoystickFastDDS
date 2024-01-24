@@ -31,9 +31,8 @@ This project implements a system where joystick inputs are read and published us
 
 ### Usage
 Run the compiled executable to start reading joystick inputs and publishing them over DDS:
-   ```bash
-   ./JoystickFastDDS
-
+    ```bash
+    ./JoystickFastDDS
 
 ## Components
 ### JoystickHandler
@@ -57,7 +56,7 @@ The following table lists the DDS topics used in the project along with their co
 | Topic Name     | Message Type   | Description                                   |
 | -------------- | -------------- | --------------------------------------------- |
 | `JoystickData` | `JoystickData` | Publishes the state of joystick inputs.       |
-| ...            | ...            | Additional topics can be listed here.         |
+|                |                |                                               |
 
 Each topic is used for a specific purpose within the FastDDS communication framework.
 
@@ -68,5 +67,4 @@ Contributions to this project are welcome! Please read our Contributing Guidelin
 This project is licensed under the MIT License.
 
 ## Contact
-Your Name - ieta_maher@hotmail.fr
 Project Link: https://github.com/ietamaher/JoystickFastDDS
