@@ -165,20 +165,12 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h \
  /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h \
  /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h \
- /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
- /usr/include/c++/9/type_traits /usr/include/c++/9/cstdint \
- /usr/include/c++/9/limits /usr/include/c++/9/ctime /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/timex.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/vector \
- /usr/include/c++/9/bits/stl_algobase.h \
+ /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/c++/9/bits/functexcept.h \
  /usr/include/c++/9/bits/exception_defines.h \
  /usr/include/c++/9/ext/numeric_traits.h \
  /usr/include/c++/9/bits/stl_pair.h /usr/include/c++/9/bits/move.h \
- /usr/include/c++/9/bits/concept_check.h \
+ /usr/include/c++/9/bits/concept_check.h /usr/include/c++/9/type_traits \
  /usr/include/c++/9/bits/stl_iterator_base_types.h \
  /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/9/debug/assertions.h \
@@ -205,7 +197,8 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/c++/9/bits/vector.tcc /usr/include/c++/9/string \
  /usr/include/c++/9/bits/stringfwd.h \
  /usr/include/c++/9/bits/char_traits.h /usr/include/c++/9/bits/postypes.h \
- /usr/include/c++/9/cwchar /usr/include/c++/9/bits/localefwd.h \
+ /usr/include/c++/9/cwchar /usr/include/c++/9/cstdint \
+ /usr/include/c++/9/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
  /usr/include/c++/9/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/9/iosfwd \
@@ -220,7 +213,11 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
- /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
@@ -233,8 +230,10 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/stdexcept \
  /home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h \
- /usr/include/c++/9/thread /usr/include/c++/9/memory \
- /usr/include/c++/9/bits/stl_tempbuf.h \
+ /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
+ /usr/include/c++/9/limits /usr/include/c++/9/ctime \
+ /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/thread \
+ /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_tempbuf.h \
  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
  /usr/include/c++/9/ext/concurrence.h \
  /usr/include/c++/9/bits/uses_allocator.h \

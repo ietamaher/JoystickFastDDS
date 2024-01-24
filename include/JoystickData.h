@@ -185,10 +185,38 @@ public:
      */
     eProsima_user_DllExport std::vector<double>& axisStates();
 
+
+    /*!
+     * @brief This function copies the value in member hatStates
+     * @param _hatStates New value to be copied in member hatStates
+     */
+    eProsima_user_DllExport void hatStates(
+            const std::vector<int32_t>& _hatStates);
+
+    /*!
+     * @brief This function moves the value in member hatStates
+     * @param _hatStates New value to be moved in member hatStates
+     */
+    eProsima_user_DllExport void hatStates(
+            std::vector<int32_t>&& _hatStates);
+
+    /*!
+     * @brief This function returns a constant reference to member hatStates
+     * @return Constant reference to member hatStates
+     */
+    eProsima_user_DllExport const std::vector<int32_t>& hatStates() const;
+
+    /*!
+     * @brief This function returns a reference to member hatStates
+     * @return Reference to member hatStates
+     */
+    eProsima_user_DllExport std::vector<int32_t>& hatStates();
+
 private:
 
     std::vector<int32_t> m_buttonStates;
     std::vector<double> m_axisStates;
+    std::vector<int32_t> m_hatStates;
 
 };
 

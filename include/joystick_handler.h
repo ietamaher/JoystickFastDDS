@@ -2,11 +2,10 @@
 #define JOYSTICK_HANDLER_H
 
 #include <SDL.h>
-#include <chrono>
 #include <vector>
-#include <string>  // For std::string
-#include <stdexcept>  // For std::runtime_error
-#include <cmath>  // For std::abs
+#include <string>
+#include <stdexcept>
+#include <cmath>
 
 class JoystickHandler {
 public:
@@ -15,6 +14,7 @@ public:
     void update();
     std::vector<int> getButtonStates() const;
     std::vector<float> getAxisStates() const;
+    std::vector<int> getHatStates() const;
 
     void setDeadzone(float deadzone);
     void setUpdateRate(int rate);
@@ -22,10 +22,10 @@ public:
 private:
     float deadzone;
     int updateRate;
-    SDL_Joystick* joystick;  // Pointer to the SDL joystick
+    SDL_Joystick* joystick;
     std::vector<int> buttonStates;
     std::vector<float> axisStates;
-    // Additional private members for timer or last update time
+    std::vector<int> hatStates;
 };
 
 #endif // JOYSTICK_HANDLER_H

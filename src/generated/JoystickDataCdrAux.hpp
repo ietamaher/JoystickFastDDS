@@ -24,7 +24,7 @@
 
 #include "JoystickData.h"
 
-constexpr uint32_t JoystickData_max_cdr_typesize {1216UL};
+constexpr uint32_t JoystickData_max_cdr_typesize {1620UL};
 constexpr uint32_t JoystickData_max_key_cdr_typesize {0UL};
 
 

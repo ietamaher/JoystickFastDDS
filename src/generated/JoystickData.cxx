@@ -54,6 +54,7 @@ JoystickData::JoystickData(
 {
     m_buttonStates = x.m_buttonStates;
     m_axisStates = x.m_axisStates;
+    m_hatStates = x.m_hatStates;
 }
 
 JoystickData::JoystickData(
@@ -61,6 +62,7 @@ JoystickData::JoystickData(
 {
     m_buttonStates = std::move(x.m_buttonStates);
     m_axisStates = std::move(x.m_axisStates);
+    m_hatStates = std::move(x.m_hatStates);
 }
 
 JoystickData& JoystickData::operator =(
@@ -69,6 +71,7 @@ JoystickData& JoystickData::operator =(
 
     m_buttonStates = x.m_buttonStates;
     m_axisStates = x.m_axisStates;
+    m_hatStates = x.m_hatStates;
     return *this;
 }
 
@@ -78,6 +81,7 @@ JoystickData& JoystickData::operator =(
 
     m_buttonStates = std::move(x.m_buttonStates);
     m_axisStates = std::move(x.m_axisStates);
+    m_hatStates = std::move(x.m_hatStates);
     return *this;
 }
 
@@ -85,7 +89,8 @@ bool JoystickData::operator ==(
         const JoystickData& x) const
 {
     return (m_buttonStates == x.m_buttonStates &&
-           m_axisStates == x.m_axisStates);
+           m_axisStates == x.m_axisStates &&
+           m_hatStates == x.m_hatStates);
 }
 
 bool JoystickData::operator !=(
@@ -169,6 +174,45 @@ const std::vector<double>& JoystickData::axisStates() const
 std::vector<double>& JoystickData::axisStates()
 {
     return m_axisStates;
+}
+
+
+/*!
+ * @brief This function copies the value in member hatStates
+ * @param _hatStates New value to be copied in member hatStates
+ */
+void JoystickData::hatStates(
+        const std::vector<int32_t>& _hatStates)
+{
+    m_hatStates = _hatStates;
+}
+
+/*!
+ * @brief This function moves the value in member hatStates
+ * @param _hatStates New value to be moved in member hatStates
+ */
+void JoystickData::hatStates(
+        std::vector<int32_t>&& _hatStates)
+{
+    m_hatStates = std::move(_hatStates);
+}
+
+/*!
+ * @brief This function returns a constant reference to member hatStates
+ * @return Constant reference to member hatStates
+ */
+const std::vector<int32_t>& JoystickData::hatStates() const
+{
+    return m_hatStates;
+}
+
+/*!
+ * @brief This function returns a reference to member hatStates
+ * @return Reference to member hatStates
+ */
+std::vector<int32_t>& JoystickData::hatStates()
+{
+    return m_hatStates;
 }
 
 

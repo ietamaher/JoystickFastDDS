@@ -17,10 +17,13 @@ int main() {
 
         JoystickData data;
         data.buttonStates(joystick.getButtonStates());
+        data.hatStates(joystick.getHatStates());
+
         // Convert axis states from float to double
         std::vector<float> axisStatesFloat = joystick.getAxisStates();
         std::vector<double> axisStatesDouble(axisStatesFloat.begin(), axisStatesFloat.end());
         data.axisStates(axisStatesDouble);
+
         ddsPublisher.publish(data);
 
         auto end = std::chrono::steady_clock::now();
