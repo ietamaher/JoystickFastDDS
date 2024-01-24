@@ -1,0 +1,3 @@
+/home/rapit/Desktop/MainApp/JoystickFastDDS/build/CMakeFiles/JoystickFastDDS.dir
+/home/rapit/Desktop/MainApp/JoystickFastDDS/build/CMakeFiles/edit_cache.dir
+/home/rapit/Desktop/MainApp/JoystickFastDDS/build/CMakeFiles/rebuild_cache.dir

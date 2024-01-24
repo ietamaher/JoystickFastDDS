@@ -68,5 +68,5 @@ Contributions to this project are welcome! Please read our Contributing Guidelin
 This project is licensed under the MIT License.
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/your-username/your-repo-name
+Your Name - ieta_maher@hotmail.fr
+Project Link: https://github.com/ietamaher/JoystickFastDDS
