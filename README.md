@@ -16,7 +16,7 @@ This project implements a system where joystick inputs are read and published us
 ### Building the Project
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/ietamaher/JoystickFastDDS.git) -b master
+   git clone https://github.com/ietamaher/JoystickFastDDS.git -b master
    cd JoystickFastDDS
 
 2. Create a build directory and run CMake:
