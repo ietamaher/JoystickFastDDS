@@ -55,7 +55,7 @@ The following table lists the DDS topics used in the project along with their co
 
 | Topic Name     | Message Type   | Description                                   |
 | -------------- | -------------- | --------------------------------------------- |
-| `JoystickData` | `JoystickData` | Publishes the state of joystick inputs.       |
+| `JoystickTopic` | `JoystickData` | Publishes the state of joystick inputs.       |
 |                |                |                                               |
 
 Each topic is used for a specific purpose within the FastDDS communication framework.
