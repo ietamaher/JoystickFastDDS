@@ -229,7 +229,6 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/9/bits/basic_string.tcc /usr/include/c++/9/stdexcept \
- /home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h \
  /usr/include/c++/9/chrono /usr/include/c++/9/ratio \
  /usr/include/c++/9/limits /usr/include/c++/9/ctime \
  /usr/include/c++/9/bits/parse_numbers.h /usr/include/c++/9/thread \
@@ -248,17 +247,9 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/c++/9/bits/shared_ptr_atomic.h \
  /usr/include/c++/9/bits/atomic_base.h \
  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
- /usr/include/c++/9/backward/auto_ptr.h \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp \
- /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h \
- /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h \
- /usr/include/c++/9/iostream /usr/include/c++/9/ostream \
- /usr/include/c++/9/ios /usr/include/c++/9/bits/ios_base.h \
+ /usr/include/c++/9/backward/auto_ptr.h /usr/include/c++/9/iostream \
+ /usr/include/c++/9/ostream /usr/include/c++/9/ios \
+ /usr/include/c++/9/bits/ios_base.h \
  /usr/include/c++/9/bits/locale_classes.h \
  /usr/include/c++/9/bits/locale_classes.tcc \
  /usr/include/c++/9/system_error \
@@ -274,6 +265,15 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
+ /home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp \
+ /usr/include/c++/9/functional /usr/include/c++/9/bits/std_function.h \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h \
+ /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h \
  /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/fastrtps_dll.h \
  /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/config.h \
  /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/eProsima_auto_link.h \
@@ -455,4 +455,55 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: \
  /home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickData.h \
  /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp \
  /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/external.hpp \
- /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp
+ /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp \
+ /usr/include/c++/9/csignal /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
+ /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
+ /usr/include/yaml-cpp/binary.h /usr/include/yaml-cpp/emitterdef.h \
+ /usr/include/yaml-cpp/emittermanip.h /usr/include/yaml-cpp/null.h \
+ /usr/include/yaml-cpp/ostream_wrapper.h \
+ /usr/include/yaml-cpp/emitterstyle.h /usr/include/yaml-cpp/stlemitter.h \
+ /usr/include/yaml-cpp/exceptions.h /usr/include/yaml-cpp/mark.h \
+ /usr/include/yaml-cpp/noexcept.h /usr/include/yaml-cpp/traits.h \
+ /usr/include/yaml-cpp/node/node.h \
+ /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+ /usr/include/yaml-cpp/node/ptr.h /usr/include/yaml-cpp/node/type.h \
+ /usr/include/yaml-cpp/node/impl.h \
+ /usr/include/yaml-cpp/node/detail/memory.h \
+ /usr/include/yaml-cpp/node/detail/node.h \
+ /usr/include/yaml-cpp/node/detail/node_ref.h \
+ /usr/include/yaml-cpp/node/detail/node_data.h \
+ /usr/include/yaml-cpp/node/detail/node_iterator.h \
+ /usr/include/yaml-cpp/node/iterator.h \
+ /usr/include/yaml-cpp/node/detail/iterator.h \
+ /usr/include/yaml-cpp/node/convert.h \
+ /usr/include/yaml-cpp/node/detail/impl.h \
+ /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h

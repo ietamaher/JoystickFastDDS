@@ -1231,18 +1231,6 @@ CMakeFiles/JoystickFastDDS.dir/src/joystick_handler.cpp.o: /home/rapit/Desktop/M
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/type_traits \
-  /usr/include/c++/9/cstdint \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/vector \
   /usr/include/c++/9/bits/stl_algobase.h \
   /usr/include/c++/9/bits/functexcept.h \
@@ -1251,6 +1239,7 @@ CMakeFiles/JoystickFastDDS.dir/src/joystick_handler.cpp.o: /home/rapit/Desktop/M
   /usr/include/c++/9/bits/stl_pair.h \
   /usr/include/c++/9/bits/move.h \
   /usr/include/c++/9/bits/concept_check.h \
+  /usr/include/c++/9/type_traits \
   /usr/include/c++/9/bits/stl_iterator_base_types.h \
   /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/9/debug/assertions.h \
@@ -1285,6 +1274,7 @@ CMakeFiles/JoystickFastDDS.dir/src/joystick_handler.cpp.o: /home/rapit/Desktop/M
   /usr/include/c++/9/bits/char_traits.h \
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/cwchar \
+  /usr/include/c++/9/cstdint \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
   /usr/include/c++/9/clocale \
@@ -1305,6 +1295,11 @@ CMakeFiles/JoystickFastDDS.dir/src/joystick_handler.cpp.o: /home/rapit/Desktop/M
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
@@ -1320,7 +1315,56 @@ CMakeFiles/JoystickFastDDS.dir/src/joystick_handler.cpp.o: /home/rapit/Desktop/M
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/9/bits/basic_string.tcc \
-  /usr/include/c++/9/stdexcept
+  /usr/include/c++/9/stdexcept \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/limits \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
+  /usr/include/c++/9/thread \
+  /usr/include/c++/9/memory \
+  /usr/include/c++/9/bits/stl_tempbuf.h \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/9/ext/concurrence.h \
+  /usr/include/c++/9/bits/uses_allocator.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/utility \
+  /usr/include/c++/9/bits/stl_relops.h \
+  /usr/include/c++/9/tuple \
+  /usr/include/c++/9/array \
+  /usr/include/c++/9/bits/invoke.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
+  /usr/include/c++/9/bits/allocated_ptr.h \
+  /usr/include/c++/9/bits/refwrap.h \
+  /usr/include/c++/9/ext/aligned_buffer.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/9/backward/auto_ptr.h \
+  /usr/include/c++/9/iostream \
+  /usr/include/c++/9/ostream \
+  /usr/include/c++/9/ios \
+  /usr/include/c++/9/bits/ios_base.h \
+  /usr/include/c++/9/bits/locale_classes.h \
+  /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/system_error \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
+  /usr/include/c++/9/streambuf \
+  /usr/include/c++/9/bits/streambuf.tcc \
+  /usr/include/c++/9/bits/basic_ios.h \
+  /usr/include/c++/9/bits/locale_facets.h \
+  /usr/include/c++/9/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
+  /usr/include/c++/9/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
+  /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/basic_ios.tcc \
+  /usr/include/c++/9/bits/ostream.tcc \
+  /usr/include/c++/9/istream \
+  /usr/include/c++/9/bits/istream.tcc
 
 CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/JoystickFastDDS/src/main.cpp \
   /usr/include/stdc-predef.h \
@@ -1526,18 +1570,6 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/SDL2/SDL_version.h \
   /usr/include/SDL2/SDL_locale.h \
   /usr/include/SDL2/SDL_misc.h \
-  /usr/include/c++/9/chrono \
-  /usr/include/c++/9/ratio \
-  /usr/include/c++/9/type_traits \
-  /usr/include/c++/9/cstdint \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/vector \
   /usr/include/c++/9/bits/stl_algobase.h \
   /usr/include/c++/9/bits/functexcept.h \
@@ -1546,6 +1578,7 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/c++/9/bits/stl_pair.h \
   /usr/include/c++/9/bits/move.h \
   /usr/include/c++/9/bits/concept_check.h \
+  /usr/include/c++/9/type_traits \
   /usr/include/c++/9/bits/stl_iterator_base_types.h \
   /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/9/debug/assertions.h \
@@ -1580,6 +1613,7 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/c++/9/bits/char_traits.h \
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/cwchar \
+  /usr/include/c++/9/cstdint \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
   /usr/include/c++/9/clocale \
@@ -1600,6 +1634,11 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
@@ -1616,7 +1655,11 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/9/bits/basic_string.tcc \
   /usr/include/c++/9/stdexcept \
-  /home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h \
+  /usr/include/c++/9/chrono \
+  /usr/include/c++/9/ratio \
+  /usr/include/c++/9/limits \
+  /usr/include/c++/9/ctime \
+  /usr/include/c++/9/bits/parse_numbers.h \
   /usr/include/c++/9/thread \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/bits/stl_tempbuf.h \
@@ -1638,15 +1681,6 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/c++/9/bits/atomic_base.h \
   /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/backward/auto_ptr.h \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp \
-  /usr/include/c++/9/functional \
-  /usr/include/c++/9/bits/std_function.h \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h \
-  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h \
   /usr/include/c++/9/iostream \
   /usr/include/c++/9/ostream \
   /usr/include/c++/9/ios \
@@ -1670,6 +1704,16 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /usr/include/c++/9/bits/ostream.tcc \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/bits/istream.tcc \
+  /home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp \
+  /usr/include/c++/9/functional \
+  /usr/include/c++/9/bits/std_function.h \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h \
+  /home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h \
   /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/fastrtps_dll.h \
   /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/config.h \
   /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/eProsima_auto_link.h \
@@ -1866,1087 +1910,1273 @@ CMakeFiles/JoystickFastDDS.dir/src/main.cpp.o: /home/rapit/Desktop/MainApp/Joyst
   /home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickData.h \
   /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp \
   /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/external.hpp \
-  /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp
+  /home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp \
+  /usr/include/c++/9/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h
 
 
-/usr/include/SDL2/SDL_misc.h:
+/usr/include/yaml-cpp/node/parse.h:
 
-/usr/include/SDL2/SDL_locale.h:
+/usr/include/yaml-cpp/node/detail/impl.h:
 
-/usr/include/SDL2/SDL_version.h:
+/usr/include/yaml-cpp/node/convert.h:
 
-/usr/include/SDL2/SDL_system.h:
+/usr/include/yaml-cpp/node/detail/iterator.h:
 
-/usr/include/SDL2/SDL_shape.h:
+/usr/include/yaml-cpp/node/detail/node_data.h:
 
-/usr/include/SDL2/SDL_render.h:
+/usr/include/yaml-cpp/node/type.h:
 
-/usr/include/SDL2/SDL_messagebox.h:
+/usr/include/yaml-cpp/node/detail/iterator_fwd.h:
 
-/usr/include/SDL2/SDL_loadso.h:
+/usr/include/yaml-cpp/traits.h:
 
-/usr/include/SDL2/SDL_hidapi.h:
+/usr/include/yaml-cpp/emitterstyle.h:
 
-/usr/include/SDL2/SDL_haptic.h:
+/usr/include/yaml-cpp/ostream_wrapper.h:
 
-/usr/include/SDL2/SDL_quit.h:
+/usr/include/yaml-cpp/null.h:
 
-/usr/include/SDL2/SDL_sensor.h:
+/usr/include/yaml-cpp/emitterdef.h:
 
-/usr/include/SDL2/SDL_gamecontroller.h:
+/usr/include/yaml-cpp/emitter.h:
 
-/usr/include/SDL2/SDL_keycode.h:
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
-/usr/include/SDL2/SDL_blendmode.h:
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/SDL2/SDL_surface.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/SDL2/SDL_rect.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
-/usr/include/SDL2/SDL_pixels.h:
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
-/usr/include/SDL2/SDL_video.h:
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
-/usr/include/SDL2/SDL_events.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h:
+/usr/include/unistd.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/cldemoteintrin.h:
+/usr/include/yaml-cpp/node/emit.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h:
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/gfniintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/cetintrin.h:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xtestintrin.h:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/bmi2intrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/bmiintrin.h:
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bitalgintrin.h:
+/usr/include/c++/9/csignal:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnnivlintrin.h:
+/usr/include/c++/9/iterator:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
+/usr/include/c++/9/regex:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124fmapsintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/IPLocator.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h:
+/usr/include/c++/9/bits/locale_conv.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmivlintrin.h:
+/usr/include/libintl.h:
 
-/usr/include/SDL2/SDL_power.h:
+/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512dqintrin.h:
+/usr/include/assert.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bwintrin.h:
+/usr/include/yaml-cpp/node/iterator.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlintrin.h:
+/usr/include/c++/9/bits/regex.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+/usr/include/math.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
+/usr/include/c++/9/bits/regex_automaton.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
+/usr/include/c++/9/cstring:
 
-/usr/include/SDL2/SDL_cpuinfo.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
-/usr/include/SDL2/SDL_error.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorWithMask.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
+/usr/include/SDL2/SDL_atomic.h:
 
-/usr/include/c++/9/math.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqintrin.h:
 
-/usr/include/SDL2/close_code.h:
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/LockedExternalAccessException.hpp:
 
-/usr/include/SDL2/SDL_audio.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp:
 
-/usr/include/SDL2/begin_code.h:
+/usr/include/c++/9/bits/ostream.tcc:
 
-/usr/include/SDL2/SDL_platform.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Locator.h:
 
-/usr/include/SDL2/SDL_clipboard.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h:
 
-/usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h:
+/usr/include/c++/9/bits/streambuf.tcc:
 
-/usr/include/SDL2/SDL_stdinc.h:
+/usr/include/c++/9/bits/stl_map.h:
 
-/usr/include/SDL2/SDL.h:
+/usr/include/c++/9/ostream:
 
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickData.cxx:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/condition/Condition.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/DataWriterListener.hpp:
+/usr/include/c++/9/deque:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/DeadlineMissedStatus.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/EntityId_t.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/EndpointAttributes.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/PublisherAttributes.h:
+/usr/include/c++/9/bits/stl_vector.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/MatchedStatus.hpp:
+/usr/include/yaml-cpp/binary.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/PublicationMatchedStatus.hpp:
+/usr/include/c++/9/limits:
 
-/usr/include/c++/9/bits/std_mutex.h:
+/usr/include/yaml-cpp/stlemitter.h:
 
-/usr/include/c++/9/mutex:
+/usr/include/c++/9/functional:
 
-/usr/include/SDL2/SDL_log.h:
+/usr/include/SDL2/SDL_thread.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/qos/DomainParticipantFactoryQos.hpp:
+/usr/include/c++/9/backward/auto_ptr.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/ParticipantAttributes.h:
+/usr/include/yaml-cpp/yaml.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipantFactory.hpp:
+/usr/include/SDL2/SDL_mutex.h:
 
-/home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickDataPubSubTypes.h:
+/usr/include/c++/9/ext/aligned_buffer.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicListener.hpp:
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicPubSubType.h:
+/usr/include/c++/9/bits/invoke.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TypeSupport.hpp:
+/usr/include/c++/9/bits/exception_defines.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/md5.h:
+/usr/include/SDL2/SDL_scancode.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/CdrSizeCalculator.hpp:
+/usr/include/asm-generic/errno-base.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/DeadlineMissedStatus.hpp:
+/usr/include/linux/errno.h:
 
-/usr/include/malloc.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/BadOptionalAccessException.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/BaseStatus.hpp:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/external.hpp:
+/usr/include/c++/9/bits/unique_lock.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/Exception.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/BadParamException.h:
+/usr/include/c++/9/bits/stl_tempbuf.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:
+/usr/include/c++/9/bits/basic_ios.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/detail/container_recursive_inspector.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CDRMessage_t.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/SDL2/SDL_endian.h:
+/usr/include/SDL2/SDL_config.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/CdrEncoding.hpp:
+/usr/include/c++/9/cstdio:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/eProsima_auto_link.h:
+/usr/include/c++/9/bits/std_abs.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/config.h:
+/usr/include/alloca.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/Cdr.h:
+/usr/include/c++/9/bits/exception.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicTypePtr.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmavlintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/AnnotationParameterValue.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/LoanableTypedCollection.hpp:
+/usr/include/c++/9/bits/range_access.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/IContentFilterFactory.hpp:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
+/usr/include/c++/9/bits/nested_exception.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/ParameterTypes.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/ContentFilteredTopic.hpp:
+/usr/include/c++/9/iosfwd:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/qos/DomainParticipantQos.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/resources/ResourceManagement.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/condition/StatusCondition.hpp:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeObjectHashId.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/Entity.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeIdentifierTypes.h:
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeIdentifier.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeObject.h:
+/usr/include/stdlib.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportDescriptorInterface.h:
+/usr/include/c++/9/bits/shared_ptr.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorSelector.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ServerAttributes.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportInterface.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerSchedulerPolicy.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicDataPtr.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/eProsima_auto_link.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerConsts.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerDescriptor.hpp:
+/usr/include/c++/9/cstdlib:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/DataWriter.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Guid.h:
 
-/usr/include/c++/9/bits/list.tcc:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/TopicAttributes.h:
 
-/usr/include/c++/9/bits/stl_list.h:
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
-/usr/include/c++/9/list:
+/usr/include/c++/9/ext/string_conversions.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/RTPSParticipantAttributes.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/IContentFilter.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/collections/ResourceLimitedVector.hpp:
+/usr/include/c++/9/bits/basic_string.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/SenderResource.h:
 
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataCdrAux.hpp:
+/usr/include/c++/9/bits/locale_facets_nonio.h:
 
-/usr/include/c++/9/cstddef:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/log/Log.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:
+/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/PropertyPolicy.h:
+/usr/include/c++/9/bits/cxxabi_forced.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/messages/CDRMessage.hpp:
+/usr/include/c++/9/bits/ostream_insert.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:
+/usr/include/c++/9/cctype:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/fixed_size_string.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/FastBuffer.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/messages/CDRMessage.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/BinaryProperty.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypesBase.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SampleIdentity.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Time_t.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/QosPolicies.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ExternalLocators.hpp:
+/usr/include/c++/9/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SerializedPayload.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/c++/9/bits/stl_pair.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/9/bits/stl_function.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/c++/9/bits/locale_classes.tcc:
 
-/usr/include/c++/9/cmath:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/ChangeKind_t.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Property.h:
+/usr/include/c++/9/algorithm:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/c++/9/bits/stream_iterator.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/fixed_size_bitmap.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/common/InstanceHandle.hpp:
 
-/usr/include/SDL2/SDL_touch.h:
+/usr/include/c++/9/bits/locale_facets.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SequenceNumber.h:
+/usr/include/c++/9/bits/functexcept.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorList.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorsIterator.hpp:
+/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/c++/9/bits/stl_multiset.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/TopicBuiltinTopicData.hpp:
 
-/usr/include/c++/9/bits/stl_set.h:
+/usr/include/c++/9/cassert:
 
-/usr/include/c++/9/set:
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/fastcdr_dll.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/IncompatibleQosStatus.hpp:
+/usr/include/c++/9/bits/refwrap.h:
 
-/usr/include/c++/9/bits/regex_executor.tcc:
+/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
 
-/usr/include/c++/9/bits/regex_executor.h:
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/MemberId.hpp:
+/usr/include/c++/9/thread:
 
-/usr/include/c++/9/bits/regex.h:
+/usr/include/c++/9/ios:
 
-/usr/include/c++/9/bits/regex_compiler.tcc:
+/usr/include/yaml-cpp/node/impl.h:
 
-/usr/include/c++/9/bits/regex_compiler.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/DataWriterQos.hpp:
+/usr/include/endian.h:
 
-/usr/include/c++/9/bits/regex_scanner.h:
+/usr/include/c++/9/sstream:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/AnnotationDescriptor.h:
+/usr/include/errno.h:
 
-/usr/include/c++/9/bits/regex_automaton.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/PublisherQos.hpp:
+/usr/include/c++/9/bits/stl_algo.h:
 
-/usr/include/c++/9/bits/regex_error.h:
+/home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h:
 
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataPubSubTypes.cxx:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/c++/9/bits/regex_constants.h:
+/usr/include/c++/9/bits/exception_ptr.h:
 
-/usr/include/c++/9/map:
+/usr/include/c++/9/bits/std_function.h:
 
-/usr/include/c++/9/bits/stl_stack.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ThreadSettings.hpp:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/WriterDataLifecycleQosPolicy.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/9/bits/stl_deque.h:
+/usr/include/c++/9/ext/new_allocator.h:
 
-/usr/include/c++/9/string:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/WriterQos.hpp:
 
-/usr/include/SDL2/SDL_gesture.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/config.h:
 
-/usr/include/c++/9/array:
+/usr/include/locale.h:
 
-/usr/include/c++/9/bits/atomic_base.h:
+/usr/include/c++/9/bits/stl_tree.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/c++/9/initializer_list:
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+/usr/include/c++/9/stack:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/stdio.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CdrSerialization.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/rdseedintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/9/bits/shared_ptr_base.h:
+/usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicDescription.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
+/usr/include/c++/9/bits/locale_facets.tcc:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/BuiltinTransports.hpp:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/c++/9/bits/parse_numbers.h:
+/usr/include/c++/9/debug/assertions.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
+/usr/include/c++/9/stdexcept:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/WriteParams.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeDescriptor.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqvlintrin.h:
+/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
 
-/usr/include/c++/9/bits/algorithmfwd.h:
+/home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickData.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/WriterAttributes.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/c++/9/bits/uniform_int_dist.h:
 
-/usr/include/c++/9/ext/concurrence.h:
+/usr/include/c++/9/bits/functional_hash.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/history/IPayloadPool.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h:
+/usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/c++/9/tuple:
 
-/usr/include/pthread.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
 
-/usr/include/c++/9/bits/ptr_traits.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
-/usr/include/c++/9/ext/atomicity.h:
+/usr/include/c++/9/cstdint:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/string_convert.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/VendorId_t.hpp:
 
-/usr/include/c++/9/cwctype:
+/usr/include/yaml-cpp/node/node.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/SDL2/SDL_timer.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/9/bits/unique_ptr.h:
-
-/usr/include/c++/9/bits/uses_allocator.h:
-
-/usr/include/c++/9/bits/vector.tcc:
-
-/usr/include/c++/9/cwchar:
-
-/usr/include/c++/9/bits/postypes.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/c++/9/bits/cpp_type_traits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
-
-/usr/include/c++/9/bits/alloc_traits.h:
-
-/usr/include/c++/9/bits/stl_heap.h:
-
-/usr/include/c++/9/ext/alloc_traits.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/InstanceHandle.h:
-
-/usr/include/c++/9/bits/stl_multimap.h:
-
-/usr/include/c++/9/bitset:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/Publisher.hpp:
-
-/usr/include/strings.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/pconfigintrin.h:
-
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/detail/optional.hpp:
-
-/usr/include/c++/9/bits/hash_bytes.h:
-
-/usr/include/c++/9/iostream:
-
-/usr/include/SDL2/SDL_main.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/PortParameters.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/9/typeinfo:
-
-/usr/include/c++/9/bits/predefined_ops.h:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/joystick_handler.cpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/9/new:
-
-/usr/include/time.h:
-
-/usr/include/c++/9/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
-
-/usr/include/c++/9/bits/allocator.h:
-
-/usr/include/c++/9/debug/debug.h:
-
-/usr/include/c++/9/bits/stl_iterator.h:
-
-/usr/include/SDL2/SDL_filesystem.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/FragmentNumber.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/9/ctime:
-
-/usr/include/c++/9/utility:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/include/joystick_handler.h:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataCdrAux.ipp:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/9/chrono:
-
-/usr/include/c++/9/bits/stl_raw_storage_iter.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicDataType.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/StatusMask.hpp:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/9/bits/basic_string.tcc:
-
-/usr/include/c++/9/bits/deque.tcc:
-
-/usr/include/c++/9/cerrno:
-
-/usr/include/c++/9/bits/stl_uninitialized.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/fmaintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/SDL2/SDL_metal.h:
-
-/usr/include/c++/9/bits/stl_construct.h:
-
-/usr/include/c++/9/bits/allocated_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/Topic.hpp:
-
-/usr/include/c++/9/atomic:
-
-/usr/include/c++/9/system_error:
-
-/usr/include/c++/9/bits/regex_scanner.tcc:
-
-/usr/include/c++/9/bits/stringfwd.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/9/iomanip:
-
-/usr/include/SDL2/SDL_mouse.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h:
-
-/usr/include/c++/9/memory:
-
-/usr/include/c++/9/bits/stl_algobase.h:
-
-/usr/include/c++/9/bits/cxxabi_init_exception.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/SubscriptionBuiltinTopicData.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/c++/9/bits/stl_bvector.h:
-
-/usr/include/c++/9/vector:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/9/exception:
-
-/usr/include/c++/9/ratio:
-
-/usr/include/c++/9/type_traits:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/SDL2/SDL_hints.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/lzcntintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/LoanableCollection.hpp:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CacheChange.h:
-
-/usr/include/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/9/bits/memoryfwd.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnniintrin.h:
-
-/usr/include/c++/9/streambuf:
-
-/usr/include/c++/9/bits/stl_relops.h:
-
-/usr/include/c++/9/bits/move.h:
-
-/usr/include/SDL2/SDL_joystick.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124vnniwintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/WriterQos.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_types.h:
-
-/usr/include/SDL2/SDL_rwops.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/wctype.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/qos/TopicQos.hpp:
-
-/usr/include/stdc-predef.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportReceiverInterface.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/main.cpp:
+/usr/include/c++/9/backward/binders.h:
 
 /usr/include/c++/9/bits/locale_classes.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/c++/9/backward/binders.h:
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/main.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/VendorId_t.hpp:
-
-/usr/include/c++/9/cstdint:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmaintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/history/IPayloadPool.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h:
-
-/usr/include/c++/9/bits/functional_hash.h:
-
-/usr/include/c++/9/bits/uniform_int_dist.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/src/dds_publisher.cpp:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickData.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeDescriptor.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/9/clocale:
-
-/usr/include/c++/9/stdexcept:
-
-/usr/include/c++/9/debug/assertions.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Token.h:
-
-/usr/include/c++/9/bits/codecvt.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicDescription.hpp:
-
-/usr/include/features.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/rdseedintrin.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/9/stack:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/9/bits/stl_tree.h:
-
-/usr/include/ctype.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/9/bits/shared_ptr_atomic.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/WriterQos.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/9/ext/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ThreadSettings.hpp:
-
-/usr/include/c++/9/bits/char_traits.h:
-
-/usr/include/c++/9/bits/std_function.h:
-
-/usr/include/c++/9/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/home/rapit/Desktop/MainApp/JoystickFastDDS/include/dds_publisher.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/9/sstream:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/c++/9/tuple:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/9/ios:
-
-/usr/include/c++/9/thread:
-
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/optional.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h:
-
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/fastcdr_dll.h:
-
-/usr/include/c++/9/cassert:
-
-/usr/include/SDL2/SDL_assert.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/TopicBuiltinTopicData.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2intrin.h:
-
-/usr/include/c++/9/bits/functexcept.h:
-
-/usr/include/c++/9/bits/locale_facets.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/common/InstanceHandle.hpp:
-
-/usr/include/c++/9/algorithm:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h:
-
-/usr/include/c++/9/ext/type_traits.h:
-
-/usr/include/c++/9/ext/numeric_traits.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/ChangeKind_t.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/9/bits/stl_function.h:
-
-/usr/include/c++/9/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SerializedPayload.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/9/bits/localefwd.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vldqintrin.h:
-
-/usr/include/c++/9/bits/locale_facets_nonio.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypesBase.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/fxsrintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/MatchingInfo.h:
-
-/usr/include/c++/9/cctype:
-
-/usr/include/c++/9/bits/ostream_insert.h:
-
-/usr/include/c++/9/bits/refwrap.h:
-
-/usr/include/c++/9/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/log/Log.hpp:
-
-/usr/include/c++/9/bits/locale_facets_nonio.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/SenderResource.h:
-
-/usr/include/c++/9/bits/basic_string.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/IContentFilter.hpp:
-
-/usr/include/c++/9/ext/string_conversions.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/TopicAttributes.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Guid.h:
-
-/usr/include/c++/9/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/9/cstdlib:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/smmintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/eProsima_auto_link.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicDataPtr.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ServerAttributes.h:
-
-/usr/include/c++/9/bits/shared_ptr.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/Entity.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/9/iosfwd:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/9/bits/nested_exception.h:
-
-/usr/include/c++/9/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/9/bits/range_access.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/9/bits/exception.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/9/bits/std_abs.h:
-
-/usr/include/c++/9/cstdio:
-
-/usr/include/SDL2/SDL_config.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CDRMessage_t.h:
-
-/usr/include/c++/9/bits/sstream.tcc:
-
-/usr/include/c++/9/bits/stl_tempbuf.h:
-
-/usr/include/errno.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
-
-/usr/include/c++/9/bits/unique_lock.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/BaseStatus.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/SDL2/SDL_scancode.h:
-
-/usr/include/c++/9/bits/exception_defines.h:
-
-/usr/include/c++/9/bits/invoke.h:
-
-/usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h:
-
-/usr/include/c++/9/ext/aligned_buffer.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/ParameterTypes.hpp:
-
-/usr/include/c++/9/bits/streambuf_iterator.h:
-
-/usr/include/SDL2/SDL_mutex.h:
-
-/usr/include/c++/9/backward/auto_ptr.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp:
-
-/usr/include/SDL2/SDL_thread.h:
-
-/usr/include/c++/9/functional:
-
-/usr/include/c++/9/limits:
-
-/usr/include/c++/9/bits/stl_vector.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/ParticipantBuiltinTopicData.hpp:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/QosPolicies.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/EntityId_t.hpp:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/all_common.h:
-
-/usr/include/c++/9/deque:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/condition/Condition.hpp:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h:
-
-/usr/include/c++/9/ostream:
-
-/usr/include/c++/9/bits/ios_base.h:
-
-/usr/include/c++/9/bits/locale_classes.tcc:
-
-/usr/include/c++/9/bits/stl_map.h:
-
-/usr/include/c++/9/bits/streambuf.tcc:
-
-/usr/include/c++/9/bits/basic_ios.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/ThroughputControllerDescriptor.h:
-
-/usr/include/c++/9/bits/stl_algo.h:
-
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/AnnotationParameterValue.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/9/bits/basic_ios.tcc:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Locator.h:
+/usr/include/c++/9/bits/atomic_lockfree_defines.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/c++/9/bits/ostream.tcc:
+/usr/include/signal.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/BuiltinTopicKey.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/qos/TopicQos.hpp:
 
-/usr/include/c++/9/istream:
+/usr/include/wctype.h:
 
-/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/LockedExternalAccessException.hpp:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/9/bits/istream.tcc:
+/usr/include/SDL2/SDL_rwops.h:
 
-/usr/include/c++/9/bits/stream_iterator.h:
+/usr/include/c++/9/bits/stl_iterator_base_types.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/SDL2/SDL_joystick.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Token.h:
+
+/usr/include/c++/9/bits/move.h:
+
+/usr/include/c++/9/bits/stl_relops.h:
+
+/usr/include/c++/9/streambuf:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnniintrin.h:
 
 /home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/fastrtps_dll.h:
 
-/usr/include/SDL2/SDL_atomic.h:
+/usr/include/c++/9/bits/memoryfwd.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/config.h:
+/usr/include/sched.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorWithMask.hpp:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CacheChange.h:
 
-/usr/include/c++/9/cstring:
+/usr/include/yaml-cpp/noexcept.h:
 
-/usr/include/c++/9/bits/regex_automaton.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124vnniwintrin.h:
 
-/usr/include/string.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/LoanableCollection.hpp:
 
-/usr/include/math.h:
+/usr/include/c++/9/type_traits:
 
-/usr/include/c++/9/bits/regex.tcc:
+/usr/include/c++/9/ratio:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+/usr/include/c++/9/exception:
 
-/usr/include/assert.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/GuidPrefix_t.hpp:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/9/bits/erase_if.h:
+/usr/include/yaml-cpp/emittermanip.h:
 
-/usr/include/c++/9/locale:
+/usr/include/c++/9/vector:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/avx2intrin.h:
+/usr/include/c++/9/bits/stl_bvector.h:
 
-/usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/shaintrin.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/builtin/topic/SubscriptionBuiltinTopicData.hpp:
+
+/usr/include/c++/9/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/9/memory:
+
+/usr/include/SDL2/SDL_mouse.h:
+
+/usr/include/c++/9/iomanip:
+
+/usr/include/c++/9/bits/char_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/9/bits/stringfwd.h:
+
+/usr/include/c++/9/bits/regex_scanner.tcc:
+
+/usr/include/c++/9/system_error:
+
+/usr/include/c++/9/bits/stl_construct.h:
+
+/usr/include/yaml-cpp/node/ptr.h:
+
+/usr/include/c++/9/clocale:
+
+/usr/include/SDL2/SDL_metal.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/9/bits/basic_string.tcc:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicDataType.hpp:
+
+/usr/include/c++/9/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/9/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/include/joystick_handler.h:
+
+/usr/include/yaml-cpp/exceptions.h:
+
+/usr/include/c++/9/bits/sstream.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512erintrin.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/dds_publisher.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/SDL2/SDL_filesystem.h:
+
+/usr/include/c++/9/bits/stl_iterator.h:
+
+/usr/include/c++/9/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/9/bits/concept_check.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/joystick_handler.cpp:
+
+/usr/include/c++/9/bits/predefined_ops.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512pfintrin.h:
+
+/usr/include/c++/9/typeinfo:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/lzcntintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/PortParameters.h:
+
+/usr/include/SDL2/SDL_main.h:
+
+/usr/include/c++/9/iostream:
+
+/usr/include/c++/9/bits/hash_bytes.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/detail/optional.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/pconfigintrin.h:
+
+/usr/include/strings.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/Publisher.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/9/bitset:
+
+/usr/include/c++/9/bits/istream.tcc:
+
+/usr/include/c++/9/ext/alloc_traits.h:
+
+/usr/include/c++/9/bits/stl_heap.h:
+
+/usr/include/c++/9/bits/alloc_traits.h:
+
+/usr/include/yaml-cpp/node/detail/memory.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/adxintrin.h:
 
 /usr/include/c++/9/stdlib.h:
 
-/usr/include/libintl.h:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/clflushoptintrin.h:
+
+/usr/include/c++/9/bits/cpp_type_traits.h:
+
+/usr/include/c++/9/atomic:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/f16cintrin.h:
+
+/usr/include/c++/9/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/9/bits/vector.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h:
+
+/usr/include/c++/9/bits/uses_allocator.h:
+
+/usr/include/c++/9/bits/unique_ptr.h:
+
+/usr/include/c++/9/ext/numeric_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/SDL2/SDL_timer.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/9/bits/allocator.h:
+
+/usr/include/c++/9/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlbwintrin.h:
+
+/usr/include/c++/9/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/InstanceHandle.h:
+
+/usr/include/c++/9/bits/ptr_traits.h:
+
+/usr/include/time.h:
+
+/usr/include/pthread.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataCdrAux.ipp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/prfchwintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/yaml-cpp/dll.h:
+
+/usr/include/c++/9/bits/deque.tcc:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/RTPSParticipantAllocationAttributes.hpp:
+
+/usr/include/c++/9/ext/concurrence.h:
+
+/usr/include/yaml-cpp/parser.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/9/bits/stl_uninitialized.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/WriterAttributes.h:
+
+/usr/include/c++/9/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/Topic.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vpopcntdqvlintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/WriteParams.h:
+
+/usr/include/c++/9/cerrno:
+
+/usr/include/c++/9/bits/parse_numbers.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/fmaintrin.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/BuiltinTransports.hpp:
+
+/usr/include/c++/9/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
+
+/usr/include/c++/9/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h:
 
-/usr/include/c++/9/bits/locale_conv.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/CdrSerialization.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h:
+
+/usr/include/c++/9/initializer_list:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/rtmintrin.h:
+
+/usr/include/c++/9/bits/atomic_base.h:
+
+/usr/include/c++/9/array:
+
+/usr/include/SDL2/SDL_gesture.h:
+
+/usr/include/c++/9/string:
+
+/usr/include/c++/9/bits/stl_deque.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/policy/WriterDataLifecycleQosPolicy.hpp:
+
+/usr/include/c++/9/map:
+
+/usr/include/c++/9/bits/regex_constants.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataPubSubTypes.cxx:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/9/bits/regex_error.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/PublisherQos.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipant.hpp:
+
+/usr/include/c++/9/bits/regex_automaton.tcc:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/AnnotationDescriptor.h:
+
+/usr/include/c++/9/new:
+
+/usr/include/c++/9/bits/regex_scanner.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/qos/DataWriterQos.hpp:
+
+/usr/include/c++/9/bits/regex_compiler.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/StatusMask.hpp:
+
+/usr/include/c++/9/bits/regex.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/MemberId.hpp:
+
+/usr/include/c++/9/bits/regex_executor.h:
+
+/usr/include/SDL2/SDL_assert.h:
+
+/usr/include/c++/9/bits/regex_executor.tcc:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/IncompatibleQosStatus.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/include/c++/9/set:
+
+/usr/include/c++/9/bits/stl_set.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorSelectorEntry.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/9/bits/stl_multiset.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorsIterator.hpp:
+
+/usr/include/c++/9/utility:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorList.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SequenceNumber.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Property.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/9/cmath:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/9/bits/regex_compiler.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/SDL2/SDL_keyboard.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/IPLocator.h:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/ExternalLocators.hpp:
 
-/usr/include/c++/9/regex:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/QosPolicies.h:
 
-/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/resources/ResourceManagement.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/c++/9/iterator:
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/GuidPrefix_t.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Time_t.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/SampleIdentity.h:
+
+/usr/include/c++/9/ext/type_traits.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/FragmentNumber.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/BinaryProperty.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/WriterQos.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/messages/CDRMessage.h:
+
+/usr/include/c++/9/bits/stl_iterator_base_funcs.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/FastBuffer.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/security/common/ParticipantGenericMessage.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/messages/CDRMessage.hpp:
+
+/usr/include/c++/9/cwchar:
+
+/usr/include/c++/9/bits/stl_stack.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/PropertyPolicy.h:
+
+/usr/include/c++/9/ctime:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/builtin/data/ContentFilterProperty.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/collections/ResourceLimitedContainerConfig.hpp:
+
+/usr/include/c++/9/cstddef:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickDataCdrAux.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/immintrin.h:
+
+/usr/include/c++/9/bits/stl_algobase.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/collections/ResourceLimitedVector.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/RTPSParticipantAttributes.h:
+
+/usr/include/c++/9/list:
+
+/usr/include/c++/9/bits/stl_list.h:
+
+/usr/include/c++/9/bits/list.tcc:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/DataWriter.hpp:
+
+/usr/include/c++/9/bits/ios_base.h:
+
+/usr/include/c++/9/bits/stl_multimap.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerDescriptor.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerConsts.hpp:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/string_convert.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/flowcontrol/FlowControllerSchedulerPolicy.hpp:
+
+/usr/include/ctype.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportInterface.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/LocatorSelector.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeObject.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeIdentifier.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeIdentifierTypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/TypeObjectHashId.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/condition/StatusCondition.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/popcntintrin.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/qos/DomainParticipantQos.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/ContentFilteredTopic.hpp:
+
+/usr/include/linux/close_range.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/ParameterTypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
+
+/usr/include/yaml-cpp/mark.h:
+
+/usr/include/SDL2/SDL_touch.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/IContentFilterFactory.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/LoanableTypedCollection.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/MatchingInfo.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512ifmavlintrin.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicTypePtr.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/Cdr.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512cdintrin.h:
+
+/usr/include/c++/9/istream:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/eProsima_auto_link.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/common/Types.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/CdrEncoding.hpp:
+
+/usr/include/SDL2/SDL_endian.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/detail/container_recursive_inspector.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512fintrin.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/BadParamException.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/Exception.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/xcdr/external.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/fixed_size_bitmap.hpp:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/exceptions/BadOptionalAccessException.hpp:
+
+/usr/include/malloc.h:
+
+/usr/include/yaml-cpp/node/detail/node.h:
+
+/usr/include/c++/9/bits/locale_facets_nonio.tcc:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/DeadlineMissedStatus.hpp:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/CdrSizeCalculator.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/md5.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TypeSupport.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
+/usr/include/c++/9/bits/erase_if.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/types/DynamicPubSubType.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/topic/TopicListener.hpp:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/include/JoystickDataPubSubTypes.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/DomainParticipantFactory.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/ParticipantAttributes.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/domain/qos/DomainParticipantFactoryQos.hpp:
+
+/usr/include/SDL2/SDL_log.h:
+
+/usr/include/c++/9/mutex:
+
+/usr/include/c++/9/bits/std_mutex.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/PublicationMatchedStatus.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportReceiverInterface.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/core/status/MatchedStatus.hpp:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/attributes/PublisherAttributes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/attributes/EndpointAttributes.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/home/rapit/Desktop/MainApp/JoystickFastDDS/src/generated/JoystickData.cxx:
+
+/usr/include/SDL2/SDL.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/dds/publisher/DataWriterListener.hpp:
+
+/usr/include/SDL2/SDL_stdinc.h:
+
+/usr/include/x86_64-linux-gnu/SDL2/_real_SDL_config.h:
+
+/usr/include/SDL2/SDL_clipboard.h:
+
+/usr/include/SDL2/SDL_platform.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
+
+/usr/include/SDL2/begin_code.h:
+
+/home/rapit/Fast-DDS/install/fastcdr/include/fastcdr/cdr/fixed_size_string.hpp:
+
+/usr/include/SDL2/SDL_audio.h:
+
+/usr/include/SDL2/close_code.h:
+
+/usr/include/c++/9/math.h:
+
+/usr/include/c++/9/bits/allocated_ptr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
+
+/usr/include/SDL2/SDL_error.h:
+
+/usr/include/SDL2/SDL_cpuinfo.h:
+
+/usr/include/SDL2/SDL_hints.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/pmmintrin.h:
+
+/usr/include/c++/9/locale:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512dqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmiintrin.h:
+
+/usr/include/SDL2/SDL_power.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/pkuintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx5124fmapsintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastdds/rtps/transport/TransportDescriptorInterface.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512vnnivlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/bmiintrin.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/utils/fixed_size_string.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/xtestintrin.h:
+
+/usr/include/yaml-cpp/node/detail/node_ref.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/cetintrin.h:
+
+/usr/include/c++/9/bits/shared_ptr_atomic.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/gfniintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/movdirintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/sgxintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/clwbintrin.h:
+
+/usr/include/SDL2/SDL_events.h:
+
+/usr/include/SDL2/SDL_video.h:
+
+/usr/include/SDL2/SDL_pixels.h:
+
+/home/rapit/Fast-DDS/install/fastrtps/include/fastrtps/qos/DeadlineMissedStatus.h:
+
+/usr/include/SDL2/SDL_rect.h:
+
+/usr/include/c++/9/bits/codecvt.h:
+
+/usr/include/SDL2/SDL_surface.h:
+
+/usr/include/SDL2/SDL_blendmode.h:
+
+/usr/include/SDL2/SDL_keycode.h:
+
+/usr/include/SDL2/SDL_gamecontroller.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/avxintrin.h:
+
+/usr/include/SDL2/SDL_sensor.h:
+
+/usr/include/SDL2/SDL_quit.h:
+
+/usr/include/SDL2/SDL_haptic.h:
+
+/usr/include/SDL2/SDL_hidapi.h:
+
+/usr/include/SDL2/SDL_loadso.h:
+
+/usr/include/SDL2/SDL_messagebox.h:
+
+/usr/include/SDL2/SDL_render.h:
+
+/usr/include/SDL2/SDL_shape.h:
+
+/usr/include/SDL2/SDL_system.h:
+
+/usr/include/SDL2/SDL_version.h:
+
+/usr/include/SDL2/SDL_locale.h:
+
+/usr/include/SDL2/SDL_misc.h:

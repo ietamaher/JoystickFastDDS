@@ -156,6 +156,7 @@ JoystickFastDDS: CMakeFiles/JoystickFastDDS.dir/src/dds_publisher.cpp.o
 JoystickFastDDS: CMakeFiles/JoystickFastDDS.dir/src/generated/JoystickData.cxx.o
 JoystickFastDDS: CMakeFiles/JoystickFastDDS.dir/src/generated/JoystickDataPubSubTypes.cxx.o
 JoystickFastDDS: CMakeFiles/JoystickFastDDS.dir/build.make
+JoystickFastDDS: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 JoystickFastDDS: /home/rapit/Fast-DDS/install/fastrtps/lib/libfastrtps.so.2.13.1
 JoystickFastDDS: /home/rapit/Fast-DDS/install/fastcdr/lib/libfastcdr.so.2.1.3
 JoystickFastDDS: /opt/ros/humble/lib/libfoonathan_memory-0.7.1.a

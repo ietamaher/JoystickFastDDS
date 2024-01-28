@@ -1,0 +1,7 @@
+joystick:
+  deadzone: 0.1
+  updateRate: 60
+  connectionTimeout: 5
+
+publish:
+  rate: 60

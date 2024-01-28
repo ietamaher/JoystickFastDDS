@@ -15,6 +15,12 @@ find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
 include_directories(include)
 
+# Find the yaml-cpp package
+find_package(yaml-cpp REQUIRED)
+
+# Include the yaml-cpp headers
+include_directories(${YAML_CPP_INCLUDE_DIR})
+
 # Set C++11
 include(CheckCXXCompilerFlag)
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_COMPILER_IS_CLANG OR
@@ -31,6 +37,6 @@ message(STATUS "Configuring JoystickFastDDS  publisher ...")
 file(GLOB JOYSTICK_FASTDDS_SOURCES_CXX "src/generated/*.cxx")
 
 add_executable(JoystickFastDDS src/main.cpp src/joystick_handler.cpp src/dds_publisher.cpp ${JOYSTICK_FASTDDS_SOURCES_CXX})
-target_link_libraries(JoystickFastDDS ${SDL2_LIBRARIES} fastrtps fastcdr)
+target_link_libraries(JoystickFastDDS ${SDL2_LIBRARIES} ${YAML_CPP_LIBRARIES} fastrtps fastcdr)
  
 

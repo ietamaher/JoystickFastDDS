@@ -5,6 +5,7 @@ using namespace eprosima::fastdds::dds;
 DDSPublisher::DDSPublisher() {
     // Create DomainParticipant
     DomainParticipantQos participant_qos;
+    participant_qos.name("joy_participant");
     participant_ = DomainParticipantFactory::get_instance()->create_participant(0, participant_qos);
     if (participant_ == nullptr) {
         throw std::runtime_error("Failed to create DomainParticipant!");
