@@ -1,0 +1,9 @@
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/JoystickData.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/JoystickDataWrapper.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/JoystickDataWrapper_swig_compilation.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/edit_cache.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/rebuild_cache.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/list_install_components.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/install.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/install/local.dir
+/home/jetson/Desktop/big_apps/JoystickFastDDS/idl/CMakeFiles/install/strip.dir

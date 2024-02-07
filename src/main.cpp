@@ -7,7 +7,7 @@
 #include <yaml-cpp/yaml.h>
 #include <string>
 
-static bool running; // Declaration
+static bool running = true; // work on TODO
 
 struct Config {
     float deadzone;
@@ -47,7 +47,9 @@ int main() {
         // Define the rate at which to publish joystick data (e.g., 60 times per second)
         const std::chrono::milliseconds rate(1000 / config.publishRate);  
 
-        while (running) {
+        while (!signalReceived && running) {
+            //std::cerr << "running ... " << std::endl;
+
             auto start = std::chrono::steady_clock::now();
 
             joystick.update(); // This will handle reconnection internally

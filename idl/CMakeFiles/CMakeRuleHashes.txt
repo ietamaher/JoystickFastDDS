@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+e1186447bb29286f1c84c2928e26b437 CMakeFiles/JoystickDataWrapper.dir/JoystickDataPYTHON.stamp
+b0b3a011febd1db5e4582c3c48d3c48b CMakeFiles/JoystickDataWrapper_swig_compilation

@@ -1,7 +1,7 @@
 joystick:
   deadzone: 0.1
-  updateRate: 60
+  updateRate: 50
   connectionTimeout: 5
 
 publish:
-  rate: 60
+  rate: 50
